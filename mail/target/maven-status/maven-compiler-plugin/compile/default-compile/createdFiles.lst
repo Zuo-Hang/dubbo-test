@@ -1,0 +1,3 @@
+mail\bean\UserAddress.class
+mail\service\OrderService.class
+mail\service\UserService.class
