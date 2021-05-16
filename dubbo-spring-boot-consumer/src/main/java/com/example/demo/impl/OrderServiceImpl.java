@@ -35,8 +35,12 @@ public class OrderServiceImpl implements OrderService {
 		List<UserAddress> addressList = userService.getUserAddressList(userId);
 		return addressList;
 	}
-	
-	
+
+	/**
+	 * 服务熔断
+	 * @param userId
+	 * @return
+	 */
 	public List<UserAddress> hello(String userId) {
 		// TODO Auto-generated method stub
 	
